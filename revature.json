@@ -1,0 +1,30 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ContainsDuplicatesTest.java",
+      "testCases": [
+        {
+          "methodName": "containsDuplicatesTest1",
+          "label": "Test case with no duplicates (Expected: False)",
+          "description": "Verifies that the method correctly returns 'false' when the input array {1, 2, 3, 4, 5} contains unique elements."
+        },
+        {
+          "methodName": "containsDuplicatesTest2",
+          "label": "Test case with duplicates (Expected: True) - adjacent values",
+          "description": "Verifies that the method correctly returns 'true' when the input array {1, 2, 2, 3, 4, 5} contains duplicates (e.g., 2 is repeated)."
+        },
+        {
+          "methodName": "containsDuplicatesTest3",
+          "label": "Test case with all duplicate values (Expected: True)",
+          "description": "Verifies that the method correctly returns 'true' when all elements in the array {1, 1, 1, 1, 1} are identical."
+        },
+        {
+          "methodName": "containsDuplicatesTest4",
+          "label": "Test case with duplicates (Expected: True) - non-adjacent values",
+          "description": "Verifies that the method correctly returns 'true' when the input array {5, 8, 3, 4, 5, 0} contains duplicates that are separated (e.g., 5 is repeated)."
+        }
+      ]
+    }
+  ]
+}
